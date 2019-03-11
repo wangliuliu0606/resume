@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  color: #666;
+  background: rgb(236, 236, 236);
+}
+
+ul,ol {
+  list-style: none;
+}
+
+.layout {
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,200 @@
+.sidebar {
+  width: 30%;
+  padding: 30px;
+  color: #fff;
+  background-color: rgb(37,70,101);
+}
+
+.avatar {
+  text-align: center;
+}
+
+.avatar .image {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid rgb(219, 219, 219);
+  background: url('./images/image.jpg') no-repeat;
+  background-size: cover;
+}
+
+.avatar .name {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.information {
+  margin-top: 40px;
+}
+
+.information h3 {
+  font-size: 20px;
+}
+
+.information ul {
+  margin-top: 10px;
+}
+
+.information ul li {
+  margin-bottom: 20px;
+}
+
+.information ul li span {
+  margin-left: 10px;
+}
+
+.skill {
+  margin-top: 40px;
+}
+
+.skill h3 {
+  font-size: 20px;
+}
+
+.skill ul {
+  margin-top: 10px;
+}
+
+.skill ul li {
+  margin-bottom: 20px;
+}
+
+.skill .schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill .schedule .bar {
+  position: relative;
+  width: 75%;
+  height: 14px;
+  background-color: rgb(231, 231, 231);
+}
+
+.skill .schedule .son {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 88%;
+  height: 14px;
+  background-color: rgb(50, 204, 231);
+}
+
+.skill .schedule .bar .son-j {
+  width: 80%;
+}
+
+.skill .schedule .bar .son-v {
+  width: 70%;
+}
+
+.skill .schedule .bar .son-a {
+  width: 80%;
+}
+
+.skill .schedule .bar .son-w {
+  width: 60%;
+}
+
+.skill .schedule .bar .son-jq {
+  width: 88%;
+}
+
+
+.main {
+  flex: 1;
+  padding: 30px;
+  background: #fff;
+}
+
+.main section {
+  margin-bottom: 60px;
+}
+
+.main .intention {
+  margin-top: 10px;
+}
+
+.main .title {
+  display: flex;
+  align-items: center;
+}
+
+.main .title h3 {
+  margin-right: 20px;
+  font-size: 20px;
+  color: rgb(37,70,101)
+}
+
+.main .title div {
+  flex: 1;
+  border: 1px solid rgb(229,229,229);
+}
+
+.main .intention ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main .intention ul li {
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.main .intention ul li span {
+  margin-left: 6px;
+}
+
+.main .intention ul li .icon-gongzuo {
+  font-size: 20px;
+}
+
+.main .intention ul li .icon-loufang- {
+  font-size: 20px;
+}
+
+.main .itmes {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.main .itmes .time {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: rgb(37,70,101);
+  font-weight: bold;
+}
+
+.main .itmes .content {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.main .project .itmes ul {
+  margin-top: 10px;
+}
+
+.main .project .itmes ul li {
+  margin-bottom: 10px;
+}
+
+.main .project .itmes ul li h4 {
+  color: rgb(37,70,101);
+  margin-bottom: 6px;
+}
+
+.main .project .itmes ul li p {
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.main .skill-m {
+  display: none;
+}
+
+
