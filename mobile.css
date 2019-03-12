@@ -166,6 +166,18 @@
     width: 88%;
   }
 
+  .main .skill-m .schedule .bar .son-n {
+    width: 20%;
+  }
+
+  .main .skill-m .schedule .bar .son-ps {
+    width: 80%;
+  }
+
+  .main .skill-m .schedule .bar .son-ai {
+    width: 75%;
+  }
+
   .main .evaluate .title div {
     border: none;
   }

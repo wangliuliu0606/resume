@@ -102,6 +102,18 @@
   width: 88%;
 }
 
+.skill .schedule .bar .son-n {
+  width: 20%;
+}
+
+.skill .schedule .bar .son-ps {
+  width: 80%;
+}
+
+.skill .schedule .bar .son-ai {
+  width: 75%;
+}
+
 
 .main {
   flex: 1;
@@ -172,7 +184,7 @@
 
 .main .itmes .content {
   margin-top: 10px;
-  line-height: 22px;
+  line-height: 24px;
 }
 
 .main .project .itmes ul {
