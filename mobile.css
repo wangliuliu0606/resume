@@ -178,6 +178,10 @@
     width: 75%;
   }
 
+  .main .evaluate {
+    margin-bottom: 30px;
+  }
+
   .main .evaluate .title div {
     border: none;
   }
